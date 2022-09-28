@@ -2,7 +2,5 @@
 
 def multiply_list_map(my_list=[], number=0):
     if my_list != 0:
-        nw_list = my_list.copy()
-        for i in range(len(nw_list)):
-            nw_list[i] *= number
+        nw_list = list(map(lambda x: x*number, my_list))
         return nw_list
