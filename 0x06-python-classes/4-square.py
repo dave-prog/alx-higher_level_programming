@@ -5,10 +5,12 @@ Module 4-square
 Introduces getters and setters
 """
 
+
 class Square:
     """
     Introduces getters and setters to obtain Area of square
     """
+
     def __init__(self, size=0):
         """Instance initialization"""
         self.size = size
@@ -21,16 +23,17 @@ class Square:
     @size.setter
     def size(self, value):
         """
-        Checks the if size is of integer type and is >= 0 
+        Checks the if size is of integer type and is >= 0
         """
-        if type(value) is not int:
+        if not isinstance(value, int):
             raise TypeError("size must be an integer")
         elif value < 0:
             raise ValueError("size must be >= 0")
         else:
             self.__size = value
+
     def area(self):
         """
         Computes Area of Square
         """
-        return self.__size*self.__size
+        return self.__size * self.__size
