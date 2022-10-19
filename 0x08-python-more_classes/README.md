@@ -3,6 +3,8 @@
 > specific to the Python programming language:
 > classes, ```__del__```, ```__repr__```, @classmethods, @staticmethods
 
+---
+
 ### Description of what each file shows:
 * main_files ----- folder holds main programs that showcase examples of how to use functions
 * Files that start with:
@@ -17,11 +19,12 @@
 8. create static method that compares rectangle areas
 9. create class method that returns new rectangle instance as a square
 
+---
+
 ### Environment
 * Language: Python 3.4.3
 * OS: Ubuntu 14.04 LTS
 * Compiler: python3
 * Style guidelines: [PEP 8 (version 1.7)](https://www.python.org/dev/peps/pep-0008/) || [Google Style Python Docstrings](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
 ---
-### Authors
-Melissa Ng [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/MelissaNg__)
+
